@@ -1,0 +1,61 @@
+.card {
+	--transition: all 0.3s ease-in-out;
+	position: relative;
+	background: #f5f5f5;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	gap: 0.5em;
+	padding: 1em;
+	padding-bottom: 3em;
+	flex: 1;
+	min-width: 220px;
+}
+
+.card::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background: var(--primary-color);
+	transition: var(--transition);
+}
+
+.card:hover::before {
+	height: 100%;
+}
+
+.card:hover,
+.card:hover .cardNumber {
+	color: #fff;
+}
+
+.card > * {
+	z-index: 1;
+}
+
+.card .cardNumber {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: var(--primary-color);
+	transition: var(--transition);
+}
+
+.card .cardTitle {
+	font-size: 1.2em;
+	font-weight: bold;
+	transition: var(--transition);
+}
+
+.card .cardDescription {
+	max-height: 0;
+	overflow: hidden;
+	transition: var(--transition);
+}
+
+.card:hover .cardDescription {
+	max-height: 200px;
+}

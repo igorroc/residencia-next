@@ -1,0 +1,6 @@
+.waveSvg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transform: translateY(95%);
+}

@@ -1,0 +1,11 @@
+.invertedWave {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translateY(-95%);
+}
+
+.bottom {
+	top: unset;
+	transform: scaleY(-1);
+}

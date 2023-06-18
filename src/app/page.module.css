@@ -12,7 +12,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-  gap: 2rem;
+	gap: 2rem;
 }
 
 .heroContent {
@@ -72,13 +72,65 @@
 	gap: 1em;
 }
 
-.waveSvg {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	transform: translateY(95%);
-}
-
 .waveSvg path {
 	fill: #31a1b3;
+}
+
+.diferenciais {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.diferenciaisContent {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+.sobre {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.sobreWrapper {
+	position: relative;
+	background-color: var(--primary-color);
+	color: #fff;
+	margin: 5em 0;
+	padding: 1em 0;
+}
+
+.sobreContent {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	gap: 2em;
+}
+
+.sobreText {
+	flex: 2;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1em;
+}
+.sobreImage {
+	flex: 1;
+	overflow: hidden;
+	border-radius: var(--border-radius);
+}
+
+.sobreImage img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
