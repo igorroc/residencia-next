@@ -3,9 +3,11 @@
 	top: 0;
 	left: 0;
 	transform: translateY(-95%);
+	z-index: -1;
 }
 
 .bottom {
 	top: unset;
-	transform: scaleY(-1);
+	bottom: 0;
+	transform: translateY(98%) scaleY(-1);
 }

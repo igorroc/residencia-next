@@ -6,6 +6,8 @@
 	--background-end-rgb: 230, 230, 230;
 
 	--primary-color: #27527a;
+	--secondary-color: #f8ca4d;
+	--secondary-color-hover: #c4a03d;
 
 	--primary-glow: conic-gradient(
 		from 180deg at 50% 50%,

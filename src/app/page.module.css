@@ -72,10 +72,6 @@
 	gap: 1em;
 }
 
-.waveSvg path {
-	fill: #31a1b3;
-}
-
 .diferenciais {
 	display: flex;
 	align-items: flex-start;
@@ -104,7 +100,7 @@
 	position: relative;
 	background-color: var(--primary-color);
 	color: #fff;
-	margin: 5em 0;
+	margin: 7em 0;
 	padding: 1em 0;
 }
 
@@ -133,4 +129,128 @@
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+.publicoWrapper {
+	position: relative;
+	background-color: var(--primary-color);
+	color: #fff;
+	margin: 5em 0;
+	padding: 1em 0;
+}
+
+.publico {
+	position: relative;
+	padding-bottom: 4em;
+	padding-top: 1em;
+}
+
+.publico > h1 {
+	text-align: center;
+}
+
+.publicoContent {
+	position: absolute;
+	margin-top: 3em;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1em;
+	z-index: 1;
+}
+
+.publicoCard {
+	flex: 1;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	min-width: 360px;
+	gap: 1em;
+	padding: 1em;
+	background: #fff;
+	color: #333;
+	border-radius: var(--border-radius);
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.publicoCardContent {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+.publicoCardContent span {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.trilhaWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 12em;
+}
+
+.trilhaWrapper > h2 {
+	margin-bottom: 3em;
+}
+
+.trilha {
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2rem;
+	background-color: var(--primary-color);
+}
+
+.trilhaContent {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	z-index: 9;
+	margin-top: -5em;
+}
+
+.trilhaItem {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	max-width: 700px;
+	color: #fff;
+	margin-right: auto;
+}
+
+.trilhaItem:nth-child(even) {
+	flex-direction: row-reverse;
+	margin-left: auto;
+	margin-right: unset;
+}
+
+.trilhaImage {
+	flex: 1;
+	overflow: hidden;
+	border-radius: var(--border-radius);
+}
+
+.trilhaImage img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.trilhaItemContent {
+	flex: 2;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	gap: 1em;
 }

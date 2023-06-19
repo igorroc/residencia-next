@@ -1,16 +1,21 @@
 import Image from "next/image"
 import Link from "next/link"
 import { FaLongArrowAltDown } from "react-icons/fa"
+import { BiBookAlt } from "react-icons/bi"
+import { LuGraduationCap } from "react-icons/lu"
 
 import Laptop from "/public/laptop.png"
 import SobreIMG from "/public/sobre.png"
+
 import WaveSvg from "@/components/Svg/Wave"
 
 import styles from "./page.module.css"
 
 import diferenciais from "@/utils/diferenciais"
+import trilha from "@/utils/trilha"
 import DiferenciaisCard from "@/components/DiferenciaisCard"
 import InvertedWaveSvg from "@/components/Svg/Wave/Inverted"
+import CustomLink from "@/components/CustomLink"
 
 export default function Home() {
 	return (
@@ -110,7 +115,7 @@ export default function Home() {
 								, em parceria com a{" "}
 								<b>Universidade Estadual de Santa Cruz (UESC)</b>.
 							</p>
-							<button>Inscreva-se</button>
+							<CustomLink href="#inscreva-se" label="Inscreva-se" />
 						</div>
 						<div className={styles.sobreImage}>
 							<Image src={SobreIMG} alt="Laptop com códigos" />
@@ -118,6 +123,75 @@ export default function Home() {
 					</div>
 				</div>
 				<InvertedWaveSvg color="#27527a" position="bottom" />
+			</section>
+
+			<section className={styles.publicoWrapper}>
+				<div className={[styles.publico, "max-width"].join(" ")}>
+					<h1>Publico Alvo</h1>
+					<div className={styles.publicoContent}>
+						<div className={styles.publicoCard}>
+							<div className={styles.publicoIcon}>
+								<BiBookAlt size={32} />
+							</div>
+							<div className={styles.publicoCardContent}>
+								<span>Graduandos</span>
+								<p>
+									Estudantes que estejam cursando o último ano de graduação em
+									cursos de computação (Ciência da Computação, Sistemas de
+									Informação, Engenharia de Computação, técnicos e tecnológicos) e
+									engenharias.
+								</p>
+							</div>
+						</div>
+						<div className={styles.publicoCard}>
+							<div className={styles.publicoIcon}>
+								<LuGraduationCap size={32} />
+							</div>
+							<div className={styles.publicoCardContent}>
+								<span>Recém formados</span>
+								<p>
+									Graduados em cursos de computação (Ciência da Computação,
+									Sistemas de Informação, Engenharia de Computação, técnicos e
+									tecnológicos) e engenharias.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<WaveSvg className={styles.waveSvg} color="#27527a" />
+			</section>
+
+			<section className={styles.trilhaWrapper}>
+				<h2>Trilha</h2>
+				<div className={styles.trilha}>
+					<InvertedWaveSvg color="#27527a" />
+
+					<div className="max-width">
+						<div className={styles.trilhaContent}>
+							{trilha.map((item, index) => (
+								<div className={styles.trilhaItem} key={index}>
+									<div className={styles.trilhaImage}>
+										<Image src={item.image} alt={item.title} />
+									</div>
+
+									<div className={styles.trilhaItemContent}>
+										<h3>{item.title}</h3>
+										<p>{item.description}</p>
+										{item.link && (
+											<CustomLink href={item.link} label={item.link_label} />
+										)}
+									</div>
+								</div>
+							))}
+						</div>
+					</div>
+
+					<InvertedWaveSvg color="#27527a" position="bottom" />
+				</div>
+			</section>
+
+			<section>
+				
 			</section>
 		</>
 	)
