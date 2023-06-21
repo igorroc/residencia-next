@@ -1,15 +1,15 @@
 const diferenciais = [
 	{
 		number: "01",
-		title: "Capacitação, Formação Avançada e Qualificação",
+		title: "Formação Avançada",
 		description:
-			"Preparar 100 profissionais especializados em Desenvolvimento de Software, que atendam as demandas da Indústria Brasileira de Software e Serviços (IBSS).",
+			"Capacitação em técnicas de programação avançadas utilizando linguagens de mercado.",
 	},
 	{
 		number: "02",
 		title: "Metodologia Inovadora",
 		description:
-			"Implementar uma nova abordagem de capacitação em Desenvolvimento de Software.",
+			"Imersão em equipes de trabalho para solução de problemas reais acompanhados por especialistas na área.",
 	},
 	{
 		number: "03",
@@ -20,30 +20,31 @@ const diferenciais = [
 	{
 		number: "04",
 		title: "Networking e Oportunidades Profissionais",
-		description: "Contribuir para o fortalecimento da capacidade de inovação no setor de TICs",
+		description:
+			"Oportunidades de trabalho em equipe em contato com instrutores especialistas inseridos no mercado de trabalho.",
 	},
 	{
 		number: "05",
 		title: "Difusão do Conhecimento",
 		description:
-			"Impactar na difusão do conhecimento científico e tecnológico na Bahia e no Brasil.",
+			"Impacto na difusão do conhecimento científico e tecnológico na Bahia e no Brasil.",
 	},
 	{
 		number: "06",
 		title: "Estímulo ao Empreendedorismo",
 		description:
-			"Estimular o surgimento ou consolidação de empresas de base tecnológica na área de Desenvolvimento de Software.",
+			"Estímulo e espaço de tempo dedicado ao desenvolvimento de ideias inovadoras que poderão se transformar em negócios de sucesso.",
 	},
 	{
 		number: "07",
 		title: "Colaboração Acadêmica",
 		description:
-			"Estimular a formação de redes de pesquisadores na área de Ensino de Computação.",
+			"Formação de redes de pesquisadores na área de Ensino de Computação.",
 	},
 	{
 		number: "08",
 		title: "Cooperação Tecnológica",
-		description: "Promover a cooperação tecnológica entre empresas e universidades.",
+		description: "Cooperação tecnológica entre empresas e universidades.",
 	},
 ]
 
