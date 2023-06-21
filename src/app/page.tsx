@@ -139,12 +139,11 @@ export default function Home() {
 								<BiBookAlt size={32} />
 							</div>
 							<div className={styles.publicoCardContent}>
-								<span>Graduandos</span>
+								<span>Estudantes</span>
 								<p>
-									Estudantes que estejam cursando o último ano de graduação em
-									cursos de computação (Ciência da Computação, Sistemas de
-									Informação, Engenharia de Computação, técnicos e tecnológicos) e
-									engenharias.
+									Cursando o último ano de graduação em cursos de computação
+									(Ciência da Computação, Sistemas de Informação, Engenharia de
+									Computação, técnicos e tecnológicos) e engenharias.
 								</p>
 							</div>
 						</div>
@@ -155,8 +154,8 @@ export default function Home() {
 							<div className={styles.publicoCardContent}>
 								<span>Recém formados</span>
 								<p>
-									Graduados em cursos de computação (Ciência da Computação,
-									Sistemas de Informação, Engenharia de Computação, técnicos e
+									Graduados em cursos superiores de Ciência da Computação,
+									Sistemas de Informação, Engenharia de Computação, inclusive
 									tecnológicos) e engenharias.
 								</p>
 							</div>
