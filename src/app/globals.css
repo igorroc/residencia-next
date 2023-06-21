@@ -5,9 +5,14 @@
 	--background-start-rgb: 255, 255, 255;
 	--background-end-rgb: 230, 230, 230;
 
+	--text-color: #232323;
 	--primary-color: #27527a;
+	--primary-color-hover: #1b476f;
 	--secondary-color: #f8ca4d;
 	--secondary-color-hover: #c4a03d;
+	--background-color: #e8f1ff;
+	--background-color-2: #d4e1f4;
+	--cancel-color: #f73e3e;
 
 	--primary-glow: conic-gradient(
 		from 180deg at 50% 50%,
