@@ -149,6 +149,18 @@ export default function Home() {
 						</div>
 						<div className={styles.publicoCard}>
 							<div className={styles.publicoIcon}>
+								<BiBookAlt size={32} />
+							</div>
+							<div className={styles.publicoCardContent}>
+								<span>Egressos de cursos técnicos</span>
+								<p>
+									Graduados em cursos técnicos de Ciência da Computação, Sistemas
+									de Informação, Engenharia de Computação.
+								</p>
+							</div>
+						</div>
+						<div className={styles.publicoCard}>
+							<div className={styles.publicoIcon}>
 								<LuGraduationCap size={32} />
 							</div>
 							<div className={styles.publicoCardContent}>
