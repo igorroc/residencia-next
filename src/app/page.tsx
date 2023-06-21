@@ -132,7 +132,7 @@ export default function Home() {
 
 			<section className={styles.publicoWrapper}>
 				<div className={[styles.publico, "max-width"].join(" ")}>
-					<h1>Publico Alvo</h1>
+					<h1>Público Alvo</h1>
 					<div className={styles.publicoContent}>
 						<div className={styles.publicoCard}>
 							<div className={styles.publicoIcon}>
