@@ -192,6 +192,7 @@
 	justify-content: center;
 	flex-direction: column;
 	margin-top: 12em;
+	margin-bottom: 8em;
 }
 
 .trilhaWrapper > h2 {
@@ -289,3 +290,18 @@
 	object-fit: contain;
 }
 
+/* ! MEDIA QUERIES */
+
+@media (max-width: 900px) {
+	.sobreContent {
+		flex-direction: column-reverse;
+	}
+
+	.sobreImage {
+		max-height: 20em;
+	}
+
+	.trilhaWrapper {
+		margin-top: 20em;
+	}
+}
