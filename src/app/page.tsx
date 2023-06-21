@@ -6,6 +6,11 @@ import { LuGraduationCap } from "react-icons/lu"
 
 import Laptop from "/public/laptop.png"
 import SobreIMG from "/public/sobre.png"
+import LogoCepedi from "/public/apoio/cepedi.png"
+import LogoUesc from "/public/apoio/uesc.png"
+import LogoSoftex from "/public/apoio/softex.png"
+import LogoMCTIFuturo from "/public/apoio/mcti_futuro.png"
+import LogoMCTI from "/public/apoio/mcti.png"
 
 import WaveSvg from "@/components/Svg/Wave"
 
@@ -191,7 +196,38 @@ export default function Home() {
 			</section>
 
 			<section>
-				
+				<div className={[styles.apoio, "max-width"].join(" ")}>
+					<div className={styles.blocoApoio}>
+						<span>Instituições Executoras</span>
+						<div className={styles.apoioContent}>
+							<div className={styles.apoioItem}>
+								<Image src={LogoCepedi} alt="Logo Cepedi" />
+							</div>
+							<div className={styles.apoioItem}>
+								<Image src={LogoUesc} alt="Logo Uesc" />
+							</div>
+						</div>
+					</div>
+					<div className={styles.blocoApoio}>
+						<span>Coordenadoria</span>
+						<div className={styles.apoioContent}>
+							<div className={styles.apoioItem}>
+								<Image src={LogoSoftex} alt="Logo Softex" />
+							</div>
+							<div className={styles.apoioItem}>
+								<Image src={LogoMCTIFuturo} alt="Logo MCTI Futuro" />
+							</div>
+						</div>
+					</div>
+					<div className={styles.blocoApoio}>
+						<span>Apoio</span>
+						<div className={styles.apoioContent}>
+							<div className={styles.apoioItem}>
+								<Image src={LogoMCTI} alt="Logo MCTI" />
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		</>
 	)
