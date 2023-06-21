@@ -1,0 +1,51 @@
+.footer {
+	background: var(--primary-color);
+	padding: 5em 0;
+	margin-top: 5em;
+	padding-bottom: 1em;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 5em;
+}
+
+.footerContent {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.footerMenu {
+	flex: 1;
+	display: flex;
+	align-items: flex-start;
+	gap: 1em;
+	flex-direction: column;
+}
+
+.footerMenu ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+.footerMenu a {
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+.footerMenu a:hover {
+	color: var(--secondary-color);
+}
+
+.footerCopy {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.3;
+}

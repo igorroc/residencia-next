@@ -130,6 +130,13 @@ export default function Home() {
 				<InvertedWaveSvg color="#27527a" position="bottom" />
 			</section>
 
+			<section>
+				<div className={[styles.beneficios, "max-width"].join(" ")}>
+					<h2 className={styles.beneficiosTitle}>Benefícios</h2>
+					<div className={styles.beneficiosContent}></div>
+				</div>
+			</section>
+
 			<section className={styles.publicoWrapper}>
 				<div className={[styles.publico, "max-width"].join(" ")}>
 					<h1>Público Alvo</h1>
@@ -164,7 +171,7 @@ export default function Home() {
 								<LuGraduationCap size={32} />
 							</div>
 							<div className={styles.publicoCardContent}>
-								<span>Recém formados</span>
+								<span>Profissionais formados</span>
 								<p>
 									Graduados em cursos superiores de Ciência da Computação,
 									Sistemas de Informação, Engenharia de Computação, inclusive
