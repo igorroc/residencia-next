@@ -133,7 +133,14 @@ export default function Home() {
 			<section>
 				<div className={[styles.beneficios, "max-width"].join(" ")}>
 					<h2 className={styles.beneficiosTitle}>Benefícios</h2>
-					<div className={styles.beneficiosContent}></div>
+					<p className={styles.beneficiosContent}>
+						O curso é presencial e oferece aos alunos uma bolsa mensal, no valor de{" "}
+						<b>R$ 1800 para graduados e graduandos</b>, e{" "}
+						<b>R$ 1100 para egressos de ensino técnico</b>. Essa ajuda financeira visa
+						proporcionar um ambiente propício ao aprendizado, permitindo que os
+						estudantes se dediquem integralmente ao desenvolvimento de suas habilidades
+						em Análise e Desenvolvimento de Software.
+					</p>
 				</div>
 			</section>
 
@@ -156,17 +163,6 @@ export default function Home() {
 						</div>
 						<div className={styles.publicoCard}>
 							<div className={styles.publicoIcon}>
-								<BiBookAlt size={32} />
-							</div>
-							<div className={styles.publicoCardContent}>
-								<span>Egressos de cursos técnicos</span>
-								<p>
-								Graduados de cursos técnicos em informática.
-								</p>
-							</div>
-						</div>
-						<div className={styles.publicoCard}>
-							<div className={styles.publicoIcon}>
 								<LuGraduationCap size={32} />
 							</div>
 							<div className={styles.publicoCardContent}>
@@ -176,6 +172,15 @@ export default function Home() {
 									Sistemas de Informação, Engenharia de Computação, inclusive
 									tecnológicos) e engenharias.
 								</p>
+							</div>
+						</div>
+						<div className={styles.publicoCard}>
+							<div className={styles.publicoIcon}>
+								<BiBookAlt size={32} />
+							</div>
+							<div className={styles.publicoCardContent}>
+								<span>Egressos de cursos técnicos</span>
+								<p>Graduados de cursos técnicos em informática.</p>
 							</div>
 						</div>
 					</div>

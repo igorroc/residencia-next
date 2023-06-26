@@ -131,6 +131,10 @@
 	object-fit: cover;
 }
 
+.beneficiosContent {
+	margin: 2em 0;
+}
+
 .publicoWrapper {
 	position: relative;
 	background-color: var(--primary-color);
