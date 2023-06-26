@@ -198,10 +198,10 @@ export default function Home() {
 
 									<div className={styles.trilhaItemContent}>
 										<h3>{item.title}</h3>
-										{/* <p>{item.description}</p>
+										<p>{item.description}</p>
 										{item.link && (
 											<CustomLink href={item.link} label={item.link_label} />
-										)} */}
+										)}
 									</div>
 								</div>
 							))}
