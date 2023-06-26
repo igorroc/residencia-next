@@ -19,7 +19,10 @@ export default function Footer() {
 							<Link href="/">Início</Link>
 						</li>
 						<li>
-							<Link href="/sobre">Sobre</Link>
+							<Link href="/processo-seletivo">Processo Seletivo</Link>
+						</li>
+						<li>
+							<Link href="/contato">Contato</Link>
 						</li>
 					</ul>
 				</div>
