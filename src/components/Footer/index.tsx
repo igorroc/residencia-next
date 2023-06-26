@@ -43,7 +43,12 @@ export default function Footer() {
 				</div>
 			</div>
 			<div className={styles.footerCopy}>
-				<p>{currentYear} - Desenvolvido por Igor Rocha</p>
+				<p>
+					<span>{currentYear} - Tecnologia </span>
+					<Link href="https://ilrocha.com" className={styles.animatedCopy}>
+						ILR
+					</Link>
+				</p>
 			</div>
 		</footer>
 	)

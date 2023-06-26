@@ -47,5 +47,70 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.footerCopy span {
 	opacity: 0.3;
+}
+
+.animatedCopy {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	width: fit-content;
+	color: #5aeb73;
+	opacity: 0.5;
+	transition: all 300ms ease-out;
+}
+
+.animatedCopy:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	bottom: -1px;
+	width: 100%;
+	height: 1px;
+	background: linear-gradient(90deg, #5aeb73, #0000, #5aeb73);
+	background-size: 200% 100%;
+	animation: CustomAnimation 1s ease-in-out infinite reverse;
+}
+
+.animatedCopy:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	bottom: -1px;
+	width: 100%;
+	height: 1px;
+	background-color: #5aeb73;
+	opacity: 0;
+	transition: all 300ms ease-out;
+}
+
+.animatedCopy:hover {
+	color: #232323;
+	font-weight: bold;
+	padding: 0 5px;
+	opacity: 1;
+}
+
+.animatedCopy:hover:after {
+	animation-play-state: paused;
+}
+
+.animatedCopy:hover:before {
+	bottom: 0;
+	opacity: 1;
+	height: 100%;
+}
+
+@keyframes CustomAnimation {
+	0% {
+		background-position-x: -100%;
+	}
+	100% {
+		background-position-x: 100%;
+	}
 }
