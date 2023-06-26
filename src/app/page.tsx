@@ -150,7 +150,7 @@ export default function Home() {
 								<p>
 									Cursando o último ano de graduação em cursos de computação
 									(Ciência da Computação, Sistemas de Informação, Engenharia de
-									Computação, técnicos e tecnológicos) e engenharias.
+									Computação e tecnológicos) e engenharias.
 								</p>
 							</div>
 						</div>
@@ -161,8 +161,7 @@ export default function Home() {
 							<div className={styles.publicoCardContent}>
 								<span>Egressos de cursos técnicos</span>
 								<p>
-									Graduados em cursos técnicos de Ciência da Computação, Sistemas
-									de Informação, Engenharia de Computação.
+								Graduados de cursos técnicos em informática.
 								</p>
 							</div>
 						</div>
