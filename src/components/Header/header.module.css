@@ -178,7 +178,7 @@
 }
 
 /* Show Nav List */
-@media (max-width: 1110px) {
+@media (max-width: 820px) {
 	#header.showNavList .wrapper .iconMenu div span {
 		background: var(--cancel-color);
 	}
@@ -199,7 +199,7 @@
 	}
 }
 
-@media (min-width: 1110px) {
+@media (min-width: 820px) {
 	#header .wrapper .iconMenu {
 		display: none;
 	}
