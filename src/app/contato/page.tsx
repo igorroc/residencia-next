@@ -8,6 +8,7 @@ import { AiFillInstagram } from "react-icons/ai"
 
 import styles from "./contato.module.css"
 import WaveSvg from "@/components/Svg/Wave"
+import Form from "@/components/Form"
 
 export default function page() {
 	return (
@@ -26,36 +27,7 @@ export default function page() {
 				<div className={[styles.formWrapper, "max-width"].join(" ")}>
 					<div className={styles.formContent}>
 						<h2 className={styles.formTitle}>Tire sua dúvida</h2>
-						<form action="">
-							<div className={styles.formGroup}>
-								<input
-									type="text"
-									name="name"
-									id="name"
-									placeholder="Nome completo"
-								/>
-								<input type="email" name="email" id="email" placeholder="Email" />
-							</div>
-							<div className={styles.formGroup}>
-								<input
-									type="text"
-									name="assunto"
-									id="assunto"
-									placeholder="Assunto"
-								/>
-								<input type="text" name="phone" id="phone" placeholder="Telefone" />
-							</div>
-							<textarea
-								name="message"
-								id="message"
-								cols={30}
-								rows={10}
-								placeholder="Digite sua mensagem ou dúvida"
-							></textarea>
-							<div className={styles.formGroup}>
-								<button type="submit">Enviar</button>
-							</div>
-						</form>
+						<Form />
 					</div>
 					<div className={styles.formInfo}>
 						<h2>Informações</h2>
@@ -71,7 +43,7 @@ export default function page() {
 						</div>
 						<div className={styles.formInfoItem}>
 							<MdEmail />
-							<span>contato@cepedi.org.br</span>
+							<span>residenciatic18@cepedi.org.br</span>
 						</div>
 						<div className={styles.formInfoItem}>
 							<AiFillInstagram />
