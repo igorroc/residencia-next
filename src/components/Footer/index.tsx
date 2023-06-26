@@ -36,7 +36,7 @@ export default function Footer() {
 							<Link href="tel:557399998888">(73) 3231-8161</Link>
 						</li>
 						<li>
-							<Link href="mailto:contato@cepedi.org.br">contato@cepedi.org.br</Link>
+							<Link href="mailto:residenciatic18@cepedi.org.br">residenciatic18@cepedi.org.br</Link>
 						</li>
 					</ul>
 				</div>
