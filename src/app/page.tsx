@@ -135,11 +135,11 @@ export default function Home() {
 					<h2 className={styles.beneficiosTitle}>Benefícios</h2>
 					<p className={styles.beneficiosContent}>
 						O curso é presencial e oferece aos alunos uma bolsa mensal, no valor de{" "}
-						<b>R$ 1800 para graduados e graduandos</b>, e{" "}
-						<b>R$ 1100 para egressos de ensino técnico</b>. Essa ajuda financeira visa
-						proporcionar um ambiente propício ao aprendizado, permitindo que os
-						estudantes se dediquem integralmente ao desenvolvimento de suas habilidades
-						em Análise e Desenvolvimento de Software.
+						<b>R$ 1.800,00 para graduados</b>, e{" "}
+						<b>R$ 1.100,00 para egressos de ensino técnico e graduandos</b>. Essa ajuda
+						financeira visa proporcionar um ambiente propício ao aprendizado, permitindo
+						que os estudantes se dediquem integralmente ao desenvolvimento de suas
+						habilidades em Análise e Desenvolvimento de Software.
 					</p>
 				</div>
 			</section>
