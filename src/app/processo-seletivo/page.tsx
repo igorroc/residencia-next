@@ -46,7 +46,7 @@ export default function ProcessoSeletivo() {
 						</div>
 						<div className={styles.cronogramaItem}>
 							<strong>Início das Aulas:</strong>
-							<p>07/08/2023</p>
+							<p>Previsto para 07/08/2023</p>
 						</div>
 					</div>
 				</div>
