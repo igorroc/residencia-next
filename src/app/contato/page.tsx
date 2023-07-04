@@ -34,7 +34,7 @@ export default function page() {
 						<div className={styles.formInfoItem}>
 							<MdLocationOn />
 							<span>
-								Av. Professor Milton Santos, s/n, Tapera, Ilhéus-BA | CEP 45651-135
+								Av. Professor Milton Santos, 597, Tapera, Ilhéus-BA | CEP 45651-135
 							</span>
 						</div>
 						<div className={styles.formInfoItem}>
