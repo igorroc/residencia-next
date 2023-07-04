@@ -34,7 +34,8 @@ export default function Home() {
 							<span>Desenvolvimento.</span>
 						</h1>
 						<div className={styles.heroImage}>
-							<Image src={Laptop} alt="Laptop com códigos" />
+							{/* eslint-disable-next-line @next/next/no-img-element */}
+							<img src={Laptop.src} alt="Laptop com codigos" />
 						</div>
 					</div>
 					<div className={styles.heroContent}>
@@ -123,7 +124,8 @@ export default function Home() {
 							<CustomLink href="#inscreva-se" label="Inscreva-se" />
 						</div>
 						<div className={styles.sobreImage}>
-							<Image src={SobreIMG} alt="Laptop com códigos" />
+							{/* eslint-disable-next-line @next/next/no-img-element */}
+							<img src={SobreIMG.src} alt="Laptop com códigos" />
 						</div>
 					</div>
 				</div>
@@ -197,7 +199,8 @@ export default function Home() {
 							{trilha.map((item, index) => (
 								<div className={styles.trilhaItem} key={index}>
 									<div className={styles.trilhaImage}>
-										<Image src={item.image} alt={item.title} />
+										{/* eslint-disable-next-line @next/next/no-img-element */}
+										<img src={item.image.src} alt={item.title} />
 									</div>
 
 									<div className={styles.trilhaItemContent}>
@@ -222,10 +225,12 @@ export default function Home() {
 						<span>Execução</span>
 						<div className={styles.apoioContent}>
 							<div className={styles.apoioItem}>
-								<Image src={LogoCepedi} alt="Logo Cepedi" />
+								{/* eslint-disable-next-line @next/next/no-img-element */}
+								<img src={LogoCepedi.src} alt="Logo CEPEDI" />
 							</div>
 							<div className={styles.apoioItem}>
-								<Image src={LogoUesc} alt="Logo Uesc" />
+								{/* eslint-disable-next-line @next/next/no-img-element */}
+								<img src={LogoUesc.src} alt="Logo Uesc" />
 							</div>
 						</div>
 					</div>
@@ -233,10 +238,12 @@ export default function Home() {
 						<span>Coordenação</span>
 						<div className={styles.apoioContent}>
 							<div className={styles.apoioItem}>
-								<Image src={LogoSoftex} alt="Logo Softex" />
+								{/* eslint-disable-next-line @next/next/no-img-element */}
+								<img src={LogoSoftex.src} alt="Logo Softex" />
 							</div>
 							<div className={styles.apoioItem}>
-								<Image src={LogoMCTIFuturo} alt="Logo MCTI Futuro" />
+								{/* eslint-disable-next-line @next/next/no-img-element */}
+								<img src={LogoMCTIFuturo.src} alt="Logo MCTI Futuro" />
 							</div>
 						</div>
 					</div>
@@ -244,7 +251,8 @@ export default function Home() {
 						<span>Apoio</span>
 						<div className={styles.apoioContent}>
 							<div className={styles.apoioItem}>
-								<Image src={LogoMCTI} alt="Logo MCTI" />
+								{/* eslint-disable-next-line @next/next/no-img-element */}
+								<img src={LogoMCTI.src} alt="Logo MCTI" />
 							</div>
 						</div>
 					</div>
