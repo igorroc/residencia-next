@@ -1,49 +1,48 @@
 "use client"
 
-import React from "react"
+import React, { useRef } from "react"
+import emailjs from "@emailjs/browser"
 
 import styles from "./form.module.css"
 
-// import { Resend } from "resend"
-// import Email from "./Template"
-// const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY)
-
 export default function Form() {
+	const form = useRef<HTMLFormElement>(null)
+	const [status, setStatus] = React.useState("Enviar")
+
 	async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
 		e.preventDefault()
-		const formData = new FormData(e.currentTarget)
-		const data = Object.fromEntries(formData)
-		const dataString = data
-		dataString.message = data.message.toString()
-		dataString.name = data.name.toString()
-		dataString.email = data.email.toString()
-		dataString.phone = data.phone.toString()
-		dataString.assunto = data.assunto.toString()
 
-		console.log(dataString)
-        
-		return dataString
+		if (!form.current) return console.error("form.current is null")
+		if (!process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID)
+			return console.error("EMAILJS_SERVICE_ID is null")
+		if (!process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID)
+			return console.error("EMAILJS_TEMPLATE_ID is null")
+		if (!process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY)
+			return console.error("EMAILJS_PUBLIC_KEY is null")
 
-		// const mail = await resend.sendEmail({
-		// 	from: dataString.email,
-		// 	to: "rochawiggle@gmail.com",
-		// 	subject: dataString.assunto,
-		// 	react: (
-		// 		<Email
-		// 			name={dataString.name}
-		// 			email={dataString.email}
-		// 			phone={dataString.phone}
-		// 			assunto={dataString.assunto}
-		// 			message={dataString.message}
-		// 		/>
-		// 	),
-		// })
+		setStatus("Enviando...")
 
-		// console.log(mail)
+		emailjs
+			.sendForm(
+				process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+				process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+				form.current,
+				process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+			)
+			.then(
+				(result) => {
+					console.log(result.text)
+					setStatus("Enviado!")
+				},
+				(error) => {
+					console.log(error.text)
+					setStatus("Erro ao enviar")
+				}
+			)
 	}
 
 	return (
-		<form onSubmit={handleSubmit} className={styles.form}>
+		<form ref={form} onSubmit={handleSubmit} className={styles.form}>
 			<div className={styles.formGroup}>
 				<input type="text" name="name" id="name" placeholder="Nome completo" />
 				<input type="email" name="email" id="email" placeholder="Email" />
@@ -60,7 +59,7 @@ export default function Form() {
 				placeholder="Digite sua mensagem ou dúvida"
 			></textarea>
 			<div className={styles.formGroup}>
-				<button type="submit">Enviar</button>
+				<button type="submit">{status}</button>
 			</div>
 		</form>
 	)
