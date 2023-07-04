@@ -49,7 +49,7 @@ export default function Home() {
 								Promover a <b>capacitação</b> de profissionais e estudantes da área
 								de Computação e Engenharias para <b>atuarem diretamente na área</b>{" "}
 								de <b>Desenvolvimento de Software</b>, diminuindo, assim, o
-								crescente deficit de profissionais com esse perfil no mercado
+								crescente déficit de profissionais com esse perfil no mercado
 								brasileiro.
 							</p>
 						</div>
@@ -87,7 +87,7 @@ export default function Home() {
 								<b>promover capacitação técnica em desenvolvimento de software</b>,
 								contribuir para o <b>crescimento</b> da quantidade de pessoas aptas
 								para atuar no setor, e consequentemente{" "}
-								<b>diminuir o deficit de profissionais</b> com esse perfil no
+								<b>diminuir o déficit de profissionais</b> com esse perfil no
 								mercado de trabalho brasileiro. Serão <b>14 meses de formação</b>,
 								sendo 7 meses de <b>aulas teórico práticas</b> e 7 meses de{" "}
 								<b>imersão em equipes</b> de trabalho para resolução de{" "}
@@ -139,7 +139,7 @@ export default function Home() {
 						<b>R$ 1.100,00 para egressos de ensino técnico e graduandos</b>. Essa ajuda
 						financeira visa proporcionar um ambiente propício ao aprendizado, permitindo
 						que os estudantes se dediquem integralmente ao desenvolvimento de suas
-						habilidades em Análise e Desenvolvimento de Software.
+						habilidades em Desenvolvimento de Software.
 					</p>
 				</div>
 			</section>
@@ -168,9 +168,8 @@ export default function Home() {
 							<div className={styles.publicoCardContent}>
 								<span>Profissionais formados</span>
 								<p>
-									Graduados em cursos superiores de Ciência da Computação,
-									Sistemas de Informação, Engenharia de Computação, inclusive
-									tecnológicos) e engenharias.
+									Graduados em cursos superiores de Sistemas de Informação,
+									Engenharia de Computação e tecnológicos em TI
 								</p>
 							</div>
 						</div>
@@ -220,7 +219,7 @@ export default function Home() {
 			<section>
 				<div className={[styles.apoio, "max-width"].join(" ")}>
 					<div className={styles.blocoApoio}>
-						<span>Instituições Executoras</span>
+						<span>Execução</span>
 						<div className={styles.apoioContent}>
 							<div className={styles.apoioItem}>
 								<Image src={LogoCepedi} alt="Logo Cepedi" />
@@ -231,7 +230,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div className={styles.blocoApoio}>
-						<span>Coordenadoria</span>
+						<span>Coordenação</span>
 						<div className={styles.apoioContent}>
 							<div className={styles.apoioItem}>
 								<Image src={LogoSoftex} alt="Logo Softex" />
