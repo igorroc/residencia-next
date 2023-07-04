@@ -44,12 +44,12 @@ export default function Form() {
 	return (
 		<form ref={form} onSubmit={handleSubmit} className={styles.form}>
 			<div className={styles.formGroup}>
-				<input type="text" name="name" id="name" placeholder="Nome completo" />
-				<input type="email" name="email" id="email" placeholder="Email" />
+				<input type="text" name="name" id="name" placeholder="Nome completo" required />
+				<input type="email" name="email" id="email" placeholder="Email" required />
 			</div>
 			<div className={styles.formGroup}>
-				<input type="text" name="assunto" id="assunto" placeholder="Assunto" />
-				<input type="text" name="phone" id="phone" placeholder="Telefone" />
+				<input type="text" name="assunto" id="assunto" placeholder="Assunto" required />
+				<input type="text" name="phone" id="phone" placeholder="Telefone" required />
 			</div>
 			<textarea
 				name="message"
@@ -57,6 +57,7 @@ export default function Form() {
 				cols={30}
 				rows={10}
 				placeholder="Digite sua mensagem ou dúvida"
+				required
 			></textarea>
 			<div className={styles.formGroup}>
 				<button type="submit">{status}</button>
