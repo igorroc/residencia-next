@@ -21,32 +21,32 @@ export default function ProcessoSeletivo() {
 					<h2 className={styles.title}>Cronograma</h2>
 					<div className={styles.cronograma}>
 						<div className={styles.cronogramaItem}>
-							<strong>Período de inscrições:</strong>
-							<p>10/07/2023 a 21/07/2023</p>
-						</div>
-						<div className={styles.cronogramaItem}>
-							<strong>Processo Seletivo:</strong>
-							<p>25/07/2023</p>
+							<strong>Inscrições:</strong>
+							<p>10 a 21/julho</p>
 						</div>
 						<div className={styles.cronogramaItem}>
 							<strong>Resultados:</strong>
-							<p>27/07/2023</p>
+							<p>28/julho</p>
 						</div>
 						<div className={styles.cronogramaItem}>
-							<strong>Prazos Recursos:</strong>
-							<p>28/07/2023 a 30/07/2023</p>
+							<strong>Prazos para Recursos:</strong>
+							<p>29 a 31 de julho</p>
 						</div>
 						<div className={styles.cronogramaItem}>
-							<strong>Resposta a Recursos:</strong>
-							<p>31/07/2023</p>
+							<strong>Resposta aos Recursos:</strong>
+							<p>01 de agosto</p>
 						</div>
 						<div className={styles.cronogramaItem}>
 							<strong>Resultado Final:</strong>
-							<p>01/08/2023</p>
+							<p>02 de agosto</p>
 						</div>
 						<div className={styles.cronogramaItem}>
-							<strong>Início das Aulas: (previsto)</strong>
-							<p>07/08/2023</p>
+							<strong>Período de Matrícula</strong>
+							<p>03 a 04 de agosto</p>
+						</div>
+						<div className={styles.cronogramaItem}>
+							<strong>Início das Aulas (previsto):</strong>
+							<p>07 de agosto</p>
 						</div>
 					</div>
 				</div>

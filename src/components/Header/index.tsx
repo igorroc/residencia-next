@@ -25,12 +25,12 @@ const navList = [
 		list: [
 			{
 				title: "Área do Aluno",
-				href: "#",
+				href: "/area-aluno",
 				type: "coming-soon",
 			},
 			{
 				title: "Área da Empresa",
-				href: "#",
+				href: "/area-empresa",
 				type: "coming-soon",
 			},
 		],

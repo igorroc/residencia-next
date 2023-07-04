@@ -36,13 +36,15 @@ export default function Footer() {
 							<Link href="tel:557399998888">(73) 3231-8161</Link>
 						</li>
 						<li>
-							<Link href="mailto:residenciatic18@cepedi.org.br">residenciatic18@cepedi.org.br</Link>
+							<Link href="mailto:residenciatic18@cepedi.org.br">
+								residenciatic18@cepedi.org.br
+							</Link>
 						</li>
 					</ul>
 				</div>
 				<div className={styles.footerMenu}>
 					<h2>Endereço</h2>
-					<p>Av. Professor Milton Santos, s/n, Tapera, Ilhéus-BA | CEP 45651-135</p>
+					<p>Av. Professor Milton Santos, 597, Tapera, Ilhéus-BA | CEP 45651-135</p>
 				</div>
 			</div>
 			<div className={styles.footerCopy}>
