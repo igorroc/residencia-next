@@ -22,13 +22,13 @@ const trilha = [
 	{
 		title: "Imersão em Desafios",
 		description:
-			"Desafios cadastrados por empresas parceiras estarão disponíveis para serem solucionados pelos residentes organizados em equipes de trabalho. As equipes serão acompanhadas por tutores experientes. Os residentes também poderão desenvolver ideias próprias.",
+			"Desafios cadastrados por empresas parceiras estarão disponíveis para serem solucionados pelos residentes, organizados em equipes de trabalho. As equipes serão acompanhadas por tutores experientes. Os residentes também poderão desenvolver ideias próprias.",
 		image: ImersaoIMG,
 	},
 	{
 		title: "Pós residência",
 		description:
-			"Ao final da residência os alunos terão tido a oportunidade de empreender a partir do desenvolvimento das suas próprias ideias, incubando empresas. Também terão sido expostos a oportunidades de seleção nas empresas parceiras. Espera-se que todos tenham melhorado seus currículos e sua experiência e se tornado assim um profissional desejado pelo mercado.",
+			"Ao final da residência, os alunos terão tido a oportunidade de empreender a partir do desenvolvimento das suas próprias ideias, incubando empresas. Também terão sido expostos a oportunidades de seleção nas empresas parceiras. Espera-se que todos tenham melhorado seus currículos e sua experiência e se tornado assim um profissional desejado pelo mercado.",
 		image: PosResidenciaIMG,
 	},
 ]
