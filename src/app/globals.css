@@ -55,6 +55,8 @@ body {
 	overflow-x: hidden;
 
 	scroll-behavior: smooth;
+
+	text-align: justify;
 }
 
 body {
