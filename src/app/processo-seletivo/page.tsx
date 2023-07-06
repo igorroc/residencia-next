@@ -22,11 +22,11 @@ export default function ProcessoSeletivo() {
 					<div className={styles.cronograma}>
 						<div className={styles.cronogramaItem}>
 							<strong>Inscrições:</strong>
-							<p>10 a 21/julho</p>
+							<p>10 a 21 de julho</p>
 						</div>
 						<div className={styles.cronogramaItem}>
 							<strong>Resultados:</strong>
-							<p>28/julho</p>
+							<p>28 de julho</p>
 						</div>
 						<div className={styles.cronogramaItem}>
 							<strong>Prazos para Recursos:</strong>
