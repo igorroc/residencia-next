@@ -309,4 +309,9 @@
 	.trilhaWrapper {
 		margin-top: 30em;
 	}
+
+	.trilhaContent {
+		margin-top: 0;
+		gap: 2em;
+	}
 }
