@@ -37,10 +37,12 @@ export default function page() {
 								Av. Professor Milton Santos, 597, Tapera, Ilhéus-BA | CEP 45651-135
 							</span>
 						</div>
-						<div className={styles.formInfoItem}>
-							<MdPhone />
-							<span>(73) 3231-8161</span>
-						</div>
+						<Link href="tel:557332318161">
+							<div className={styles.formInfoItem}>
+								<MdPhone />
+								<span>(73) 3231-8161</span>
+							</div>
+						</Link>
 						<div className={styles.formInfoItem}>
 							<MdEmail />
 							<span>residenciatic18@cepedi.org.br</span>

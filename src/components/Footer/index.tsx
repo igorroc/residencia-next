@@ -30,10 +30,10 @@ export default function Footer() {
 					<h2>Redes</h2>
 					<ul>
 						<li>
-							<Link href="https://instagram.com">@cepedi</Link>
+							<Link href="https://www.instagram.com/cepedilheus/">@cepedilheus</Link>
 						</li>
 						<li>
-							<Link href="tel:557399998888">(73) 3231-8161</Link>
+							<Link href="tel:557332318161">(73) 3231-8161</Link>
 						</li>
 						<li>
 							<Link href="mailto:residenciatic18@cepedi.org.br">
