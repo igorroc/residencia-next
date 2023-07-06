@@ -3,6 +3,8 @@ import React from "react"
 import styles from "./footer.module.css"
 import Link from "next/link"
 
+import Logo from "/public/logo.png"
+
 export default function Footer() {
 	const currentYear = new Date().getFullYear()
 
@@ -10,7 +12,8 @@ export default function Footer() {
 		<footer className={styles.footer}>
 			<div className={[styles.footerContent, "max-width"].join(" ")}>
 				<div className={[styles.footerMenu, styles.footerLogo].join(" ")}>
-					<h1>LOGO</h1>
+					{/* eslint-disable-next-line @next/next/no-img-element */}
+					<img src={Logo.src} alt="Logo" />
 				</div>
 				<div className={styles.footerMenu}>
 					<h2>Links Úteis</h2>

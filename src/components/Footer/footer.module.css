@@ -15,7 +15,7 @@
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
-	flex-wrap: wrap;
+	gap: 2em;
 }
 
 .footerMenu {
@@ -41,6 +41,19 @@
 
 .footerMenu a:hover {
 	color: var(--secondary-color);
+}
+
+.footerLogo {
+	--max-height: 200px;
+	max-height: var(--max-height);
+	overflow: hidden;
+}
+
+.footerLogo img {
+	width: 100%;
+	height: 100%;
+	max-height: var(--max-height);
+	object-fit: contain;
 }
 
 .footerCopy {
@@ -112,5 +125,11 @@
 	}
 	100% {
 		background-position-x: 100%;
+	}
+}
+
+@media (max-width: 1000px){
+	.footerContent{
+		flex-direction: column;
 	}
 }

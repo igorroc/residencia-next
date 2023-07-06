@@ -5,6 +5,7 @@ import { AiFillLock } from "react-icons/ai"
 import { useState } from "react"
 import { usePathname } from "next/navigation"
 
+import Logo from "/public/logo_black_horizontal.png"
 import styles from "./header.module.css"
 
 import Link from "next/link"
@@ -59,7 +60,8 @@ export default function Header() {
 
 				<div className={styles.wrapperContent}>
 					<Link className={styles.logo} href="./">
-						<h1>Logo</h1>
+						{/* eslint-disable-next-line @next/next/no-img-element */}
+						<img src={Logo.src} alt="Logo" />
 					</Link>
 
 					<button
