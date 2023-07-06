@@ -121,7 +121,7 @@ export default function Home() {
 								, em parceria com a{" "}
 								<b>Universidade Estadual de Santa Cruz (UESC)</b>.
 							</p>
-							<CustomLink href="#inscreva-se" label="Inscreva-se" />
+							<CustomLink href="/inscricao" label="Inscreva-se" />
 						</div>
 						<div className={styles.sobreImage}>
 							{/* eslint-disable-next-line @next/next/no-img-element */}
