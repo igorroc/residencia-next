@@ -298,6 +298,10 @@
 /* ! MEDIA QUERIES */
 
 @media (max-width: 900px) {
+	.heroSubtitle{
+		flex: 2.5;
+	}
+
 	.sobreContent {
 		flex-direction: column-reverse;
 	}
