@@ -22,7 +22,7 @@ export default function ProcessoSeletivo() {
 					<div className={styles.cronograma}>
 						<div className={styles.cronogramaItem}>
 							<strong>Inscrições:</strong>
-							<p>10 a 21 de julho</p>
+							<p>12 a 24 de julho</p>
 						</div>
 						<div className={styles.cronogramaItem}>
 							<strong>Resultados:</strong>
@@ -46,7 +46,7 @@ export default function ProcessoSeletivo() {
 						</div>
 						<div className={styles.cronogramaItem}>
 							<strong>Início das Aulas (previsto):</strong>
-							<p>07 de agosto</p>
+							<p>09 de agosto</p>
 						</div>
 					</div>
 				</div>

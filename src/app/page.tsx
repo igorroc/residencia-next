@@ -4,8 +4,8 @@ import { FaLongArrowAltDown } from "react-icons/fa"
 import { BiBookAlt } from "react-icons/bi"
 import { LuGraduationCap } from "react-icons/lu"
 
-import Laptop from "/public/laptop.png"
-import SobreIMG from "/public/sobre.png"
+import HomeIMG from "/public/home.jpg"
+import SobreIMG from "/public/objetivos.jpg"
 import LogoCepedi from "/public/apoio/cepedi.png"
 import LogoUesc from "/public/apoio/uesc.png"
 import LogoSoftex from "/public/apoio/softex.png"
@@ -35,7 +35,7 @@ export default function Home() {
 						</h1>
 						<div className={styles.heroImage}>
 							{/* eslint-disable-next-line @next/next/no-img-element */}
-							<img src={Laptop.src} alt="Laptop com codigos" />
+							<img src={HomeIMG.src} alt="Laptop com codigos" />
 						</div>
 					</div>
 					<div className={styles.heroContent}>
