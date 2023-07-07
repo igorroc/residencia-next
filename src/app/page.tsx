@@ -112,8 +112,9 @@ export default function Home() {
 							</p>
 							<p>
 								Projeto apoiado pelo Ministério da Ciência, Tecnologia e Inovações,
-								com recursos da Lei no 8.248, de 23 de outubro de 1991. A execução
-								será realizada pelo{" "}
+								com recursos da Lei no 8.248, de 23 de outubro de 1991. Iniciativa
+								do Ministério da Ciência, Tecnologia e Inovações e Softex no âmbito
+								do Programa MCTI Futuro. A execução será realizada pelo{" "}
 								<b>
 									Centro de Pesquisa e Desenvolvimento Tecnológico em Informática
 									e Eletroeletrônica de Ilhéus (CEPEDI)
