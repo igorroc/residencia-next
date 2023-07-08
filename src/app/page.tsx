@@ -89,19 +89,18 @@ export default function Home() {
 								contribuir para o <b>crescimento</b> da quantidade de pessoas aptas
 								para atuar no setor, e consequentemente{" "}
 								<b>diminuir o déficit de profissionais</b> com esse perfil no
-								mercado de trabalho brasileiro. Serão <b>14 meses de formação</b>,
-								sendo 7 meses de <b>aulas teórico práticas</b> e 7 meses de{" "}
-								<b>imersão em equipes</b> de trabalho para resolução de{" "}
-								<b>problemas reais</b> de empresas parceiras. Ao longo do processo,
-								serão aplicados conteúdos como Lógica de programação,
-								desenvolvimento em tecnologias como Java, .Net, Python, além da
-								formação em desenvolvimento de interfaces, arquitetura, projeto e
-								testes de software e uso da Cloud. São <b>100 vagas com bolsas</b>{" "}
-								ofertadas para profissionais graduados em cursos de computação
-								(Ciência da Computação, Sistemas de Informação, Engenharia de
-								Computação, técnicos e tecnológicos) e engenharias, além de
-								estudantes que estejam finalizando a graduação em qualquer dos
-								cursos citados.
+								mercado de trabalho brasileiro. Serão <b>15 meses</b> de formação,
+								envolvendo de aulas teórico práticas e imersão em equipes de
+								trabalho para resolução de problemas reais de empresas parceiras. Ao
+								longo do processo, serão aplicados conteúdos como Lógica de
+								programação, desenvolvimento em tecnologias como Java, .Net, Python,
+								além da formação em desenvolvimento de interfaces, arquitetura,
+								projeto e testes de software e uso da Cloud. São{" "}
+								<b>100 vagas com bolsas</b> ofertadas para profissionais graduados
+								em cursos de computação (Ciência da Computação, Sistemas de
+								Informação, Engenharia de Computação, técnicos e tecnológicos) e
+								engenharias, além de estudantes que estejam finalizando a graduação
+								em qualquer dos cursos citados.
 							</p>
 							<p>
 								Ao final da qualificação, o aluno será{" "}
