@@ -10,7 +10,9 @@
 	padding: 1em;
 	padding-bottom: 3em;
 	flex: 1;
-	min-width: 220px;
+
+	min-width: calc(var(--max-width) / 4 - 4em);
+	width: 100%;
 }
 
 .card::before {
