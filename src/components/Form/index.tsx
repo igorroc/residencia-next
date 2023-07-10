@@ -4,6 +4,7 @@ import React, { useRef } from "react"
 import emailjs from "@emailjs/browser"
 
 import styles from "./form.module.css"
+import { formatarTelefone } from "@/utils/formatPhone"
 
 export default function Form() {
 	const form = useRef<HTMLFormElement>(null)
@@ -49,7 +50,16 @@ export default function Form() {
 			</div>
 			<div className={styles.formGroup}>
 				<input type="text" name="assunto" id="assunto" placeholder="Assunto" required />
-				<input type="text" name="phone" id="phone" placeholder="Telefone" required />
+				<input
+					type="text"
+					name="phone"
+					id="phone"
+					placeholder="Telefone"
+					required
+					onInput={(e) => {
+						e.currentTarget.value = formatarTelefone(e.currentTarget.value)
+					}}
+				/>
 			</div>
 			<textarea
 				name="message"
