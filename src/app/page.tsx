@@ -87,7 +87,7 @@ export default function Home() {
 								Comunicação (TIC18) é um projeto com o objetivo de promover
 								capacitação técnica em desenvolvimento de software, contribuir para
 								o crescimento da quantidade de pessoas aptas para atuar no setor, e
-								consequentemente diminuir o deficit de profissionais com esse perfil
+								consequentemente diminuir o déficit de profissionais com esse perfil
 								no mercado de trabalho brasileiro. Serão 15 meses de formação,
 								envolvendo oficinas teórico-práticas e imersão em equipes de
 								trabalho para resolução de problemas reais de empresas parceiras. Ao
@@ -97,9 +97,9 @@ export default function Home() {
 								Interfaces, Arquitetura, Projeto, Testes de Software e uso da Cloud.
 								São 100 vagas com bolsas ofertadas para profissionais graduados em
 								cursos de computação (Ciência da Computação, Sistemas de Informação,
-								Engenharia de Computação), assim como técnicos e tecnológos em
-								Desenvolvimento de Software e outras Engenharias, além de estudantes
-								que estejam finalizando a graduação nos cursos supracitados.
+								Engenharia de Computação) e outras Engenharias, assim como técnicos
+								e tecnólogos em Desenvolvimento de Software, além de estudantes que
+								estejam finalizando a graduação nos cursos superiores supracitados.
 							</p>
 							<p>
 								Ao final da qualificação, o residente será capaz de desenvolver
