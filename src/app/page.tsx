@@ -45,7 +45,7 @@ export default function Home() {
 							</Link>
 						</div>
 						<div className={styles.heroSubtitle}>
-							<h2>Objetivo principal do Programa de Residência em Software:</h2>
+							<h2>Objetivo principal do Programa:</h2>
 							<p>
 								Promover a <b>capacitação</b> de profissionais e estudantes da área
 								de Computação e Engenharias para <b>atuarem diretamente na área</b>{" "}
@@ -84,42 +84,38 @@ export default function Home() {
 						<div className={styles.sobreText}>
 							<p>
 								O Programa de Residência em Tecnologia da Informação e da
-								Comunicação (TIC) é um projeto com o objetivo de{" "}
-								<b>promover capacitação técnica em desenvolvimento de software</b>,
-								contribuir para o <b>crescimento</b> da quantidade de pessoas aptas
-								para atuar no setor, e consequentemente{" "}
-								<b>diminuir o déficit de profissionais</b> com esse perfil no
-								mercado de trabalho brasileiro. Serão <b>15 meses</b> de formação,
-								envolvendo de aulas teórico práticas e imersão em equipes de
+								Comunicação (TIC18) é um projeto com o objetivo de promover
+								capacitação técnica em desenvolvimento de software, contribuir para
+								o crescimento da quantidade de pessoas aptas para atuar no setor, e
+								consequentemente diminuir o deficit de profissionais com esse perfil
+								no mercado de trabalho brasileiro. Serão 15 meses de formação,
+								envolvendo oficinas teórico-práticas e imersão em equipes de
 								trabalho para resolução de problemas reais de empresas parceiras. Ao
-								longo do processo, serão aplicados conteúdos como Lógica de
-								programação, desenvolvimento em tecnologias como Java, .Net, Python,
-								além da formação em desenvolvimento de interfaces, arquitetura,
-								projeto e testes de software e uso da Cloud. São{" "}
-								<b>100 vagas com bolsas</b> ofertadas para profissionais graduados
-								em cursos de computação (Ciência da Computação, Sistemas de
-								Informação, Engenharia de Computação, técnicos e tecnológicos) e
-								engenharias, além de estudantes que estejam finalizando a graduação
-								em qualquer dos cursos citados.
+								longo do processo de formação, serão aplicados conteúdos como Lógica
+								de programação, e Desenvolvimento de Soluções em tecnologias como
+								Java, .Net, Python, além da formação em desenvolvimento de
+								Interfaces, Arquitetura, Projeto, Testes de Software e uso da Cloud.
+								São 100 vagas com bolsas ofertadas para profissionais graduados em
+								cursos de computação (Ciência da Computação, Sistemas de Informação,
+								Engenharia de Computação), assim como técnicos e tecnológos em
+								Desenvolvimento de Software e outras Engenharias, além de estudantes
+								que estejam finalizando a graduação nos cursos supracitados.
 							</p>
 							<p>
-								Ao final da qualificação, o aluno será{" "}
-								<b>capaz de desenvolver sistemas</b> com aplicação em diversas áreas
-								como Saúde, Educação, Agronegócio e outros tipos de sistemas de
-								informação onde as TIC se insiram, além de ser estimulado a{" "}
-								<b>empreender</b> a partir das ideias desenvolvidas durante o curso.
+								Ao final da qualificação, o residente será capaz de desenvolver
+								sistemas com aplicação em diversas áreas como Saúde, Educação,
+								Agronegócio e outros tipos de Sistemas de Informação onde as TIC se
+								insiram, além de ser estimulado a empreender a partir das ideias
+								inovadoras desenvolvidas durante o curso.
 							</p>
 							<p>
 								Projeto apoiado pelo Ministério da Ciência, Tecnologia e Inovações,
 								com recursos da Lei no 8.248, de 23 de outubro de 1991. Iniciativa
 								do Ministério da Ciência, Tecnologia e Inovações e Softex no âmbito
-								do Programa MCTI Futuro. A execução será realizada pelo{" "}
-								<b>
-									Centro de Pesquisa e Desenvolvimento Tecnológico em Informática
-									e Eletroeletrônica de Ilhéus (CEPEDI)
-								</b>
-								, em parceria com a{" "}
-								<b>Universidade Estadual de Santa Cruz (UESC)</b>.
+								do Programa MCTI Futuro. A execução será realizada pelo Centro de
+								Pesquisa e Desenvolvimento Tecnológico em Informática e
+								Eletroeletrônica de Ilhéus (CEPEDI), em parceria com a Universidade
+								Estadual de Santa Cruz (UESC).
 							</p>
 							<CustomLink href="/inscricao" label="Inscreva-se" />
 						</div>
@@ -157,9 +153,9 @@ export default function Home() {
 							<div className={styles.publicoCardContent}>
 								<span>Estudantes</span>
 								<p>
-									Cursando o último ano de graduação em cursos de computação
+									Cursando o último ano de graduação em cursos de Computação
 									(Ciência da Computação, Sistemas de Informação, Engenharia de
-									Computação e tecnológicos) e engenharias.
+									Computação e Tecnólogos) e Engenharias.
 								</p>
 							</div>
 						</div>
@@ -168,10 +164,10 @@ export default function Home() {
 								<LuGraduationCap size={32} />
 							</div>
 							<div className={styles.publicoCardContent}>
-								<span>Profissionais formados</span>
+								<span>Profissionais Graduados</span>
 								<p>
 									Graduados em cursos superiores de Sistemas de Informação,
-									Engenharia de Computação e tecnológicos em TI
+									Engenharia de Computação e Tecnólogos em TI
 								</p>
 							</div>
 						</div>

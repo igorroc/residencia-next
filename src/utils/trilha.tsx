@@ -22,13 +22,13 @@ const trilha = [
 	{
 		title: "Imersão em Desafios",
 		description:
-			"Desafios cadastrados por empresas parceiras estarão disponíveis para serem solucionados pelos residentes, organizados em equipes de trabalho. As equipes serão acompanhadas por tutores experientes. Os residentes também poderão desenvolver ideias próprias.",
+			"Desafios cedidos por empresas parceiras estarão disponíveis para serem solucionados por equipes de trabalho formada por residentes sob a orientação de tutores experientes e professores formadores. Os residentes serão, também, desafiados a desenvolver ideias próprias.",
 		image: ImersaoIMG,
 	},
 	{
 		title: "Pós residência",
 		description:
-			"Ao final da residência, os alunos terão tido a oportunidade de empreender a partir do desenvolvimento das suas próprias ideias, incubando empresas. Também terão sido expostos a oportunidades de seleção nas empresas parceiras. Espera-se que todos tenham melhorado seus currículos e sua experiência e se tornado assim um profissional desejado pelo mercado.",
+			"Ao final da residência, os residentes terão tido a oportunidade de empreender a partir do desenvolvimento das suas próprias ideias, incubando empresas na INETI, ou em outras incubadoras de sua preferência. Também terão sido expostos a oportunidades de seleção nas empresas parceiras deste programa. Espera-se que, ao final, todos tenham alcançado novos desafios e ampliando sua experiência em Desenvolvimento de Software, tornado-se, assim, um profissional disputado pelo mercado.",
 		image: PosResidenciaIMG,
 	},
 ]
