@@ -196,7 +196,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin-top: 20em;
+	margin-top: 12em;
 	margin-bottom: 8em;
 }
 
@@ -311,7 +311,7 @@
 	}
 
 	.trilhaWrapper {
-		margin-top: 30em;
+		margin-top: 20em;
 	}
 
 	.trilhaContent {
