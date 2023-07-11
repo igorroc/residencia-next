@@ -326,6 +326,10 @@
 		font-size: 2em;
 	}
 
+	.heroImage {
+		display: none;
+	}
+
 	.heroContent:nth-child(2) {
 		flex-direction: column-reverse;
 		gap: 1em;
