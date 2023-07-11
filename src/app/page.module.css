@@ -154,6 +154,7 @@
 }
 
 .publicoContent {
+	width: 100%;
 	position: absolute;
 	margin-top: 3em;
 	display: flex;
@@ -298,7 +299,7 @@
 /* ! MEDIA QUERIES */
 
 @media (max-width: 900px) {
-	.heroSubtitle{
+	.heroSubtitle {
 		flex: 2.5;
 	}
 
@@ -317,5 +318,35 @@
 	.trilhaContent {
 		margin-top: 0;
 		gap: 2em;
+	}
+}
+
+@media (max-width: 768px) {
+	.heroTitle {
+		font-size: 2em;
+	}
+
+	.heroContent:nth-child(2) {
+		flex-direction: column-reverse;
+		gap: 1em;
+	}
+
+	.trilhaWrapper {
+		margin-top: 25em;
+	}
+}
+
+@media (max-width: 550px) {
+	.blocoApoio {
+		width: 100%;
+	}
+	.apoioContent {
+		width: 100%;
+	}
+}
+
+@media (max-width: 360px) {
+	.publicoCard {
+		min-width: unset;
 	}
 }
