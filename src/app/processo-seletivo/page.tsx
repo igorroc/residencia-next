@@ -45,7 +45,7 @@ export default function ProcessoSeletivo() {
 							<p>02 de agosto</p>
 						</div>
 						<div className={styles.cronogramaItem}>
-							<strong>Período de Matrícula</strong>
+							<strong>Período de Matrícula:</strong>
 							<p>03 a 04 de agosto</p>
 						</div>
 						<div className={styles.cronogramaItem}>
