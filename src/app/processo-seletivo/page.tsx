@@ -3,6 +3,8 @@ import React from "react"
 import styles from "./processo.module.css"
 import WaveSvg from "@/components/Svg/Wave"
 
+import cronograma from "@/utils/cronograma"
+
 export default function ProcessoSeletivo() {
 	return (
 		<>
@@ -20,38 +22,12 @@ export default function ProcessoSeletivo() {
 				<div className={"max-width"}>
 					<h2 className={styles.title}>Cronograma</h2>
 					<div className={styles.cronograma}>
-						<div className={styles.cronogramaItem}>
-							<strong>Inscrições:</strong>
-							<p>12 a 24 de julho</p>
-						</div>
-						<div className={styles.cronogramaItem}>
-							<strong>Processo seletivo:</strong>
-							<p>26 de julho</p>
-						</div>
-						<div className={styles.cronogramaItem}>
-							<strong>Resultados:</strong>
-							<p>28 de julho</p>
-						</div>
-						<div className={styles.cronogramaItem}>
-							<strong>Prazos para Recursos:</strong>
-							<p>29 a 31 de julho</p>
-						</div>
-						<div className={styles.cronogramaItem}>
-							<strong>Resposta aos Recursos:</strong>
-							<p>01 de agosto</p>
-						</div>
-						<div className={styles.cronogramaItem}>
-							<strong>Resultado Final:</strong>
-							<p>02 de agosto</p>
-						</div>
-						<div className={styles.cronogramaItem}>
-							<strong>Período de Matrícula:</strong>
-							<p>03 a 04 de agosto</p>
-						</div>
-						<div className={styles.cronogramaItem}>
-							<strong>Início das Aulas (previsto):</strong>
-							<p>09 de agosto</p>
-						</div>
+						{cronograma.map((item, index) => (
+							<div className={styles.cronogramaItem} key={index}>
+								<strong>{item.title}</strong>
+								<p>{item.date}</p>
+							</div>
+						))}
 					</div>
 				</div>
 			</section>
