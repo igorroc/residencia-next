@@ -43,14 +43,18 @@ export default function page() {
 								<span>(73) 3231-8161</span>
 							</div>
 						</Link>
-						<div className={styles.formInfoItem}>
-							<MdEmail />
-							<span>residenciatic18@cepedi.org.br</span>
-						</div>
-						<div className={styles.formInfoItem}>
-							<AiFillInstagram />
-							<span>@cepedi</span>
-						</div>
+						<Link href={"mailto:residenciatic18@cepedi.org.br"}>
+							<div className={styles.formInfoItem}>
+								<MdEmail />
+								<span>residenciatic18@cepedi.org.br</span>
+							</div>
+						</Link>
+						<Link href={"https://www.instagram.com/cepedilheus/"}>
+							<div className={styles.formInfoItem}>
+								<AiFillInstagram />
+								<span>@cepedilheus</span>
+							</div>
+						</Link>
 					</div>
 				</div>
 			</section>
