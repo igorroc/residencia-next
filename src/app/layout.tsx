@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			<body className={montserrat.className}>
 				<link rel="icon" href="/favicon.png" sizes="any" />
 				<Header />
-				<main>{children}</main>
+				<main className="main">{children}</main>
 				<Footer />
 			</body>
 		</html>

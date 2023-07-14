@@ -73,7 +73,7 @@ html {
 	scroll-padding-top: 100px;
 }
 
-main {
+.main {
 	min-height: 50vh;
 	display: flex;
 	flex-direction: column;
