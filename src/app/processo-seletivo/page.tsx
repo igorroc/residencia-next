@@ -4,6 +4,8 @@ import styles from "./processo.module.css"
 import WaveSvg from "@/components/Svg/Wave"
 
 import cronograma from "@/utils/cronograma"
+import Link from "next/link"
+import { AiOutlineDownload } from "react-icons/ai"
 
 export default function ProcessoSeletivo() {
 	return (
@@ -17,6 +19,14 @@ export default function ProcessoSeletivo() {
 
 				<WaveSvg className={styles.waveSvg} color="#318eb3" />
 			</section>
+
+			<a
+				href="/Edital_Residentes_Residencia_TIC18.pdf"
+				className={styles.heroButton}
+			>
+				<AiOutlineDownload />
+				Baixar edital
+			</a>
 
 			<section>
 				<div className={"max-width"}>

@@ -8,27 +8,23 @@ const cronograma = [
 		date: "01 de agosto",
 	},
 	{
-		title: "Resultados:",
+		title: "Resultado final:",
 		date: "03 de agosto",
 	},
 	{
-		title: "Prazos para Recursos:",
+		title: "Prazo para recursos:",
 		date: "04 a 06 de agosto",
 	},
 	{
-		title: "Resposta aos Recursos:",
+		title: "Resposta aos recursos e divulgação do resultado final:",
 		date: "07 de agosto",
 	},
 	{
-		title: "Resultado Final:",
-		date: "07 de agosto",
-	},
-	{
-		title: "Período de Matrícula:",
+		title: "Período de matrícula:",
 		date: "08 a 09 de agosto",
 	},
 	{
-		title: "Início das Aulas (previsto):",
+		title: "Início das aulas (previsto):",
 		date: "10 de agosto",
 	},
 ]
