@@ -15,15 +15,15 @@ export default function ProcessoSeletivo() {
 					<div className={styles.heroContent}>
 						<h1 className={styles.heroTitle}>Processo Seletivo</h1>
 					</div>
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLSeOcYRlOrIM2D7McbLLQve2rhvJsdiONvLOKjcy6d3id_B19A/formResponse" className={styles.heroButton}>
+						Inscreva-se agora
+					</a>
 				</div>
 
 				<WaveSvg className={styles.waveSvg} color="#318eb3" />
 			</section>
 
-			<a
-				href="/Edital_Residentes_Residencia_TIC18.pdf"
-				className={styles.heroButton}
-			>
+			<a href="/Edital_Residentes_Residencia_TIC18.pdf" className={styles.heroButton}>
 				<AiOutlineDownload />
 				Baixar edital
 			</a>
