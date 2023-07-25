@@ -72,6 +72,23 @@
 	gap: 1em;
 }
 
+.mainButton {
+	width: max-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+	background-color: var(--secondary-color);
+	color: #333;
+	padding: 0.5em 1em;
+	border-radius: 0.5em;
+	cursor: pointer;
+}
+
+.mainButton:hover {
+	background-color: var(--secondary-color-hover);
+}
+
 .diferenciais {
 	display: flex;
 	align-items: flex-start;

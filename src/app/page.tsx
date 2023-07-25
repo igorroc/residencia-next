@@ -9,7 +9,6 @@ import SobreIMG from "/public/objetivos.jpg"
 import LogoCepedi from "/public/apoio/cepedi.png"
 import LogoUesc from "/public/apoio/uesc.png"
 import LogoSoftex from "/public/apoio/softex.png"
-import LogoMCTIFuturo from "/public/apoio/mcti_futuro.png"
 import LogoMCTI from "/public/apoio/mcti.png"
 
 import WaveSvg from "@/components/Svg/Wave"
@@ -21,6 +20,7 @@ import trilha from "@/utils/trilha"
 import DiferenciaisCard from "@/components/DiferenciaisCard"
 import InvertedWaveSvg from "@/components/Svg/Wave/Inverted"
 import CustomLink from "@/components/CustomLink"
+import { AiOutlineDownload } from "react-icons/ai"
 
 export default function Home() {
 	return (
@@ -117,7 +117,10 @@ export default function Home() {
 								Eletroeletrônica de Ilhéus (CEPEDI), em parceria com a Universidade
 								Estadual de Santa Cruz (UESC).
 							</p>
-							<CustomLink href="https://docs.google.com/forms/d/e/1FAIpQLSeOcYRlOrIM2D7McbLLQve2rhvJsdiONvLOKjcy6d3id_B19A/formResponse" label="Inscreva-se" />
+							<a href="/ORGANIZAÇÃO_CURRICULAR.pdf" className={styles.mainButton}>
+								<AiOutlineDownload />
+								Saiba mais
+							</a>
 						</div>
 						<div className={styles.sobreImage}>
 							{/* eslint-disable-next-line @next/next/no-img-element */}
@@ -236,10 +239,6 @@ export default function Home() {
 							<div className={styles.apoioItem}>
 								{/* eslint-disable-next-line @next/next/no-img-element */}
 								<img src={LogoSoftex.src} alt="Logo Softex" />
-							</div>
-							<div className={styles.apoioItem}>
-								{/* eslint-disable-next-line @next/next/no-img-element */}
-								<img src={LogoMCTIFuturo.src} alt="Logo MCTI Futuro" />
 							</div>
 						</div>
 					</div>
