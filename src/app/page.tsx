@@ -117,10 +117,15 @@ export default function Home() {
 								Eletroeletrônica de Ilhéus (CEPEDI), em parceria com a Universidade
 								Estadual de Santa Cruz (UESC).
 							</p>
-							<a href="/ORGANIZAÇÃO_CURRICULAR.pdf" className={styles.mainButton}>
-								<AiOutlineDownload />
-								Saiba mais
-							</a>
+							<div className={styles.buttons}>
+								<a href="/ORGANIZAÇÃO_CURRICULAR.pdf" className={styles.mainButton}>
+									<AiOutlineDownload />
+									Saiba mais
+								</a>
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSeOcYRlOrIM2D7McbLLQve2rhvJsdiONvLOKjcy6d3id_B19A/formResponse" className={styles.mainButton}>
+									Inscreva-se
+								</a>
+							</div>
 						</div>
 						<div className={styles.sobreImage}>
 							{/* eslint-disable-next-line @next/next/no-img-element */}
