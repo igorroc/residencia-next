@@ -10,6 +10,7 @@ import LogoCepedi from "/public/apoio/cepedi.png"
 import LogoUesc from "/public/apoio/uesc.png"
 import LogoSoftex from "/public/apoio/softex.png"
 import LogoMCTI from "/public/apoio/mcti.png"
+import LogoSETRE from "/public/apoio/setre.png"
 
 import WaveSvg from "@/components/Svg/Wave"
 
@@ -253,6 +254,10 @@ export default function Home() {
 							<div className={styles.apoioItem}>
 								{/* eslint-disable-next-line @next/next/no-img-element */}
 								<img src={LogoMCTI.src} alt="Logo MCTI" />
+							</div>
+							<div className={styles.apoioItem}>
+								{/* eslint-disable-next-line @next/next/no-img-element */}
+								<img src={LogoSETRE.src} alt="Logo SETRE" />
 							</div>
 						</div>
 					</div>
