@@ -14,8 +14,12 @@ export default function ProcessoSeletivo() {
 				<div className={[styles.heroWrapper, "max-width"].join(" ")}>
 					<div className={styles.heroContent}>
 						<h1 className={styles.heroTitle}>Processo Seletivo</h1>
+						<p>Inscrições prorrogadas!</p>
 					</div>
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLSeOcYRlOrIM2D7McbLLQve2rhvJsdiONvLOKjcy6d3id_B19A/formResponse" className={styles.heroButton}>
+					<a
+						href="https://docs.google.com/forms/d/e/1FAIpQLSeOcYRlOrIM2D7McbLLQve2rhvJsdiONvLOKjcy6d3id_B19A/formResponse"
+						className={styles.heroButton}
+					>
 						Inscreva-se agora
 					</a>
 				</div>
