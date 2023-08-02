@@ -131,19 +131,9 @@ Onde:
 
 ## Como fazer deploy
 
-Para fazer deploy do projeto, para colocar na hospedagem do CEPEDI, é necessário descomentar as linhas 3 e 4 do arquivo `next.config.js`, deixando-o da seguinte forma:
+Para fazer deploy do projeto, para colocar na hospedagem do CEPEDI, é necessário configurar a variável `BUILD` no arquivo `next.config.js` para `true`.
 
-```js
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-	output: "export",
-	distDir: "dist",
-}
-
-module.exports = nextConfig
-```
-
-Após descomentar as linhas, você pode rodar o comando:
+Após alterar, você pode rodar o comando:
 
 ```bash
 npm run build
