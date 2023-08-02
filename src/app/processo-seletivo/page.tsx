@@ -15,6 +15,10 @@ export default function ProcessoSeletivo() {
 					<div className={styles.heroContent}>
 						<h1 className={styles.heroTitle}>Processo Seletivo</h1>
 						<p>Inscrições prorrogadas!</p>
+						<p>
+							Fique atento! As datas ajustadas e válidas estão logo abaixo no
+							Cronograma.
+						</p>
 					</div>
 					<a
 						href="https://docs.google.com/forms/d/e/1FAIpQLSeOcYRlOrIM2D7McbLLQve2rhvJsdiONvLOKjcy6d3id_B19A/formResponse"
