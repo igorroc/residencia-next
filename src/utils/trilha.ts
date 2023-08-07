@@ -8,8 +8,6 @@ const trilha = [
 		title: "Seleção",
 		description:
 			"Você deverá se inscrever on-line aqui pelo site após a leitura atenta do Edital que estará disponível em breve. A seleção será realizada na segunda quinzena de julho de 2023.",
-		link: "https://docs.google.com/forms/d/e/1FAIpQLSeOcYRlOrIM2D7McbLLQve2rhvJsdiONvLOKjcy6d3id_B19A/formResponse",
-		link_label: "Inscreva-se agora",
 		image: InscricoesIMG,
 	},
 	{

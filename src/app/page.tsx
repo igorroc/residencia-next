@@ -123,9 +123,6 @@ export default function Home() {
 									<AiOutlineDownload />
 									Saiba mais
 								</a>
-								<a href="https://docs.google.com/forms/d/e/1FAIpQLSeOcYRlOrIM2D7McbLLQve2rhvJsdiONvLOKjcy6d3id_B19A/formResponse" className={styles.mainButton}>
-									Inscreva-se
-								</a>
 							</div>
 						</div>
 						<div className={styles.sobreImage}>
@@ -211,9 +208,9 @@ export default function Home() {
 									<div className={styles.trilhaItemContent}>
 										<h3>{item.title}</h3>
 										<p>{item.description}</p>
-										{item.link && (
+										{/* {item.link && (
 											<CustomLink href={item.link} label={item.link_label} />
-										)}
+										)} */}
 									</div>
 								</div>
 							))}
