@@ -14,19 +14,35 @@ export default function ProcessoSeletivo() {
 				<div className={[styles.heroWrapper, "max-width"].join(" ")}>
 					<div className={styles.heroContent}>
 						<h1 className={styles.heroTitle}>Processo Seletivo</h1>
-						<p>Inscrições encerradas!</p>
+						<p>Resultado preliminar disponível!</p>
+						<p>Sejam bem vindos residentes!</p>
 						<p>
-							Candidato(a) fique atento(a) ao e-mail com instruções que será enviado
-							ainda hoje.
+							Clique no botão abaixo para visualizar a lista preliminar de aprovados no Programa
+							Residência em Software.
 						</p>
-						<p>Verifique, inclusive, sua caixa de Spam.</p>
+						<a
+							href="https://docs.google.com/forms/d/1FdkaIa7vz7kkymLnXsmMWYkY2EzUczNG5HVjdHhRlVU"
+							className={styles.heroButton}
+						>
+							Lista de aprovados
+						</a>
 						<br />
-						<p>Acesse a lista de candidatos inscritos no botão abaixo.</p>
-						<p>Importante verificar se você tem alguma pendência documental.</p>
+						<br />
+						<p>
+							O prazo para recursos iniciará à 00:01 do dia 11 de agosto de 2023 e
+							encerrará às 23:59 da mesma data.
+						</p>
+						<p>
+							Candidatos interessados em enviar recursos, favor preencher o formulário
+							disponível no botão abaixo dentro do prazo estabelecido.
+						</p>
+						<a
+							href="https://docs.google.com/forms/d/1FdkaIa7vz7kkymLnXsmMWYkY2EzUczNG5HVjdHhRlVU"
+							className={styles.heroButton}
+						>
+							Envio de Recursos
+						</a>
 					</div>
-					<a href="/Lista_Homologada.pdf" className={styles.heroButton}>
-						Acesse a lista
-					</a>
 				</div>
 
 				<WaveSvg className={styles.waveSvg} color="#318eb3" />
