@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const BUILD = false
+const BUILD = true
 
 const nextConfigBuild = {
 	output: "export",

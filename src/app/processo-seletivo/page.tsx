@@ -17,13 +17,10 @@ export default function ProcessoSeletivo() {
 						<p>Resultado preliminar disponível!</p>
 						<p>Sejam bem vindos residentes!</p>
 						<p>
-							Clique no botão abaixo para visualizar a lista preliminar de aprovados no Programa
-							Residência em Software.
+							Clique no botão abaixo para visualizar a lista preliminar de aprovados
+							no Programa Residência em Software.
 						</p>
-						<a
-							href="https://docs.google.com/forms/d/1FdkaIa7vz7kkymLnXsmMWYkY2EzUczNG5HVjdHhRlVU"
-							className={styles.heroButton}
-						>
+						<a href="/LISTA_APROVADOS.pdf" className={styles.heroButton}>
 							Lista de aprovados
 						</a>
 						<br />
@@ -40,7 +37,16 @@ export default function ProcessoSeletivo() {
 							href="https://docs.google.com/forms/d/1FdkaIa7vz7kkymLnXsmMWYkY2EzUczNG5HVjdHhRlVU"
 							className={styles.heroButton}
 						>
-							Envio de Recursos
+							Envio de recursos
+						</a>
+						<br />
+						<br />
+						<p>Lista dos candidatos não aprovados e as respectivas motivações.</p>
+						<a
+							href="/LISTA_NAO_APROVADOS_COM_MOTIVOS.pdf"
+							className={styles.heroButton}
+						>
+							Lista não aprovados
 						</a>
 					</div>
 				</div>
